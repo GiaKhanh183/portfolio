@@ -1,0 +1,39 @@
+.u-webdev{--bg:#0d1117;--panel:#161b22;--line:#30363d;--fg:#e6edf3;--mute:#9da7b3;--green:#3fb950;--blue:#58a6ff;--pink:#ff7b72;--amber:#e3b341}
+.u-webdev{background:var(--bg);color:var(--fg);font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;line-height:1.55}
+.u-webdev .site-header{border-bottom:1px solid var(--line)}
+.u-webdev .brand,.u-webdev .back,.u-webdev .prompt,.u-webdev code,.u-webdev .bar,.u-webdev .btn{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.u-webdev .brand .mark{color:var(--green);border-color:var(--green)}
+.u-webdev .back{border-color:var(--line);color:var(--blue)}
+.u-webdev .back:hover{background:var(--panel)}
+.u-webdev a{color:var(--blue)}
+.u-webdev main{padding:0 clamp(16px,4vw,48px);max-width:1080px;width:100%;margin:0 auto}
+.u-webdev .hero{padding:clamp(32px,7vw,88px) 0 24px}
+.u-webdev .prompt{margin:0;color:var(--mute);font-size:.95rem}
+.u-webdev .prompt .usr{color:var(--green)}
+.u-webdev .prompt .dir{color:var(--blue)}
+.u-webdev h1{font-size:clamp(1.8rem,5vw,3.4rem);line-height:1.1;margin:20px 0 14px;font-weight:700;letter-spacing:-.02em}
+.u-webdev .caret{display:inline-block;width:.55ch;height:1em;margin-left:6px;background:var(--green);vertical-align:-.12em;animation:blink 1s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.u-webdev .hero .plain{max-width:60ch;color:var(--mute);font-size:1.1rem;margin:0 0 36px}
+.u-webdev .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:24px;padding:16px 0 48px}
+.u-webdev .proj{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s}
+.u-webdev .proj:hover{border-color:var(--green);transform:translateY(-3px)}
+.u-webdev .bar{display:flex;align-items:center;gap:6px;padding:10px 14px;background:#0b0f14;border-bottom:1px solid var(--line);font-size:.8rem;color:var(--mute)}
+.u-webdev .bar i{width:11px;height:11px;border-radius:50%;background:var(--pink)}
+.u-webdev .bar i:nth-child(2){background:var(--amber)}
+.u-webdev .bar i:nth-child(3){background:var(--green)}
+.u-webdev .bar span{margin-left:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.u-webdev .body{padding:20px}
+.u-webdev .body h3{margin:0 0 6px;font-size:1.35rem}
+.u-webdev .body .plain{margin:0 0 14px;color:var(--mute)}
+.u-webdev .stack{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.u-webdev code{background:#0b0f14;border:1px solid var(--line);color:var(--amber);padding:2px 9px;border-radius:5px;font-size:.8rem}
+.u-webdev .actions{display:flex;flex-wrap:wrap;gap:10px;margin:0}
+.u-webdev .btn{padding:10px 16px;border-radius:6px;border:1px solid var(--line);color:var(--fg);font-size:.9rem}
+.u-webdev .btn:hover{border-color:var(--blue)}
+.u-webdev .btn.primary{background:var(--green);color:#04120a;border-color:var(--green)}
+.u-webdev .btn.primary:hover{filter:brightness(1.12)}
+.u-webdev .how{border-top:1px dashed var(--line);padding:32px 0 56px}
+.u-webdev .how p:last-child{max-width:70ch;color:var(--mute);margin-top:14px}
+.u-webdev .site-footer{border-color:var(--line);color:var(--mute)}
+.u-webdev .site-footer .btn{color:var(--fg)}

@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Original full-size artwork/photos (web versions are the slide-*/fund-*/web/* jpgs)
+public/assets/photo/InEvent/
+public/assets/photo/OnCampus/
+public/assets/photo/OffCampus/
+public/design/design 3/
+public/design/design1/igpost-*.png
+public/design/design2/[0-9].png
+public/design/design3/fundraising*.png
+public/design/design4/Artboard*
+public/design/design4/executives.jpg
+public/design/design5/Untitled-1.png
+
+# Private working notes
+HANDOFF.md
