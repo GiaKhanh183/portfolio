@@ -2,7 +2,7 @@
 .u-design{background:var(--bg);color:var(--fg);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
 .u-design a{text-decoration-thickness:2px;text-underline-offset:3px}
 .u-design .site-header{border-bottom:3px solid var(--fg)}
-.u-design .brand .mark{border-radius:0;background:var(--fg);color:var(--bg)}
+.u-design .brand .mark{background:var(--fg);color:var(--bg)}
 .u-design .back{border-radius:0;border-width:2px}
 .u-design .back:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 .u-design main{padding:0 clamp(16px,4vw,48px)}
