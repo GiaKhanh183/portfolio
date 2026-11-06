@@ -5,7 +5,7 @@
    - Leave image out to keep the colored placeholder.
    - hue (0-360) only changes the placeholder color.
    ============================================================ */
-export interface Owner { name: string; initials: string; tagline: string; intro: string; email: string; resume: string; links: { label: string; url: string }[] }
+export interface Owner { name: string; initials: string; avatar?: string; tagline: string; intro: string; bio: string; email: string; resume: string; links: { label: string; url: string }[] }
 export interface DesignProject { title: string; type: string; tools: string[]; blurb: string; problem: string; role: string; result: string; hue: number; image?: string; alt?: string; images?: string[]; instagram?: string }
 export interface WebProject { name: string; title: string; summary: string; stack: string[]; demo: string; github: string }
 export interface Photo { title: string; series: string; place?: string; ratio: string; hue: number; image?: string; alt?: string }
@@ -15,8 +15,10 @@ export const portfolio: Portfolio = {
   owner: {
     name: "Gia Khanh Huynh",
     initials: "GK",
+    avatar: "/assets/avatar.jpg",
     tagline: "Designer · Web Developer · Photographer",
-    intro: "Three crafts, three universes. Pick one and step inside.",
+    intro: "Three crafts, three universes. Every one of them is me.",
+    bio: "I'm a USF Sophomore, Computer Science Major, who designs posters and social content, builds websites, and photographs campus events. I joined VISA at USF as a photographer, but when the team needed design work I didn't have those skills yet, so I learned Photoshop, Illustrator and Canva on the job. I'm coachable and I work hard to get better at whatever a role needs. I'm also currently learning InDesign, which I understand is mostly for text-heavy, multi-page layouts like newsletters, and I'm confident I'll pick it up quickly.",
     email: "giakhanhh@usf.edu",
     resume: "/assets/resume.pdf",         // put your PDF in public/assets/resume.pdf
     links: [
